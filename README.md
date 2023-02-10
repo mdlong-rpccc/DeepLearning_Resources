@@ -16,6 +16,15 @@ The gradient information is then used to update the weights of the network in a 
 
 Backpropagation is an efficient and effective method for training neural networks, and it has been the foundation of many advances in the field of deep learning. It is also the basis for many variations and extensions of the algorithm, such as momentum-based optimization, Adagrad, Adam, and others.
 
+## Gradient Decent
+https://builtin.com/data-science/gradient-descent
+https://www.youtube.com/watch?v=sDv4f4s2SB8&t=144s
+
+Gradient descent is an optimization algorithm used in machine learning and deep learning to minimize the cost function of a model. It is an iterative algorithm that updates the parameters of the model in the direction of the negative gradient of the cost function with respect to the parameters.
+
+The main idea behind gradient descent is that the cost function is a continuous, differentiable, and convex (or nearly convex) function. The gradient of the cost function points in the direction of the maximum increase of the cost, so if we subtract it from the current parameters, we will move towards the direction of the minimum. By iteratively updating the parameters in this way, the algorithm tries to find the minimum of the cost function, which corresponds to the best parameters for the model.
+
+There are different variants of gradient descent, including batch gradient descent, stochastic gradient descent, and mini-batch gradient descent, each with its own trade-offs between accuracy and computational efficiency.
 
 ## Types of Artificial Neural Networks
 
